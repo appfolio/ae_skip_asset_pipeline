@@ -23,7 +23,7 @@ module AeSkipAssetPipeline
   end
 
   def path_to_asset(source, options = {})
-    super(source, options.merge(enabled: AeSkipAssetPipeline.enabled))
+    super(source, options.merge(skip_pipeline: AeSkipAssetPipeline.enabled))
   end
 end
 

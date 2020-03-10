@@ -46,7 +46,7 @@ module AeSkipAssetPipeline
   end
 end
 
-AeSkipAssetPipeline.enabled = ENV['USE_PRECOMPILED_ASSETS'] != '1'
+AeSkipAssetPipeline.enabled = ENV['USE_PRECOMPILED_ASSETS'] != '1' && ENV['CI'] == 'true'
 
 ActionView::Base.prepend AeSkipAssetPipeline::AssetPipelineMethods
 

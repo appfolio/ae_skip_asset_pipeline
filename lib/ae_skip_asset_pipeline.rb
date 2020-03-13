@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'action_view'
+require 'active_support'
 require 'ae_skip_asset_pipeline/version'
 
 module AeSkipAssetPipeline
@@ -48,5 +48,6 @@ end
 
 AeSkipAssetPipeline.enabled = ENV['USE_PRECOMPILED_ASSETS'] != '1'
 
-ActionView::Base.prepend AeSkipAssetPipeline::AssetPipelineMethods
-
+ActiveSupport.on_load(:action_view) do
+  prepend AeSkipAssetPipeline::AssetPipelineMethods
+end

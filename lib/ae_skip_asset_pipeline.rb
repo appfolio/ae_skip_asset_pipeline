@@ -7,11 +7,19 @@ module AeSkipAssetPipeline
   mattr_accessor :enabled
 
   module AssetPipelineMethods
+    def javascript_pack_tag(*args)
+      super unless AeSkipAssetPipeline.enabled
+    end
+
     def javascript_packs_with_chunks_tag(*args)
       super unless AeSkipAssetPipeline.enabled
     end
 
     def javascript_include_tag(*args)
+      super unless AeSkipAssetPipeline.enabled
+    end
+
+    def stylesheet_pack_tag(*args)
       super unless AeSkipAssetPipeline.enabled
     end
 

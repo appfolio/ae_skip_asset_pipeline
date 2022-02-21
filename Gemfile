@@ -6,6 +6,7 @@ source 'https://rubygems.org' do
   gem 'appraisal', '>= 2.3', '< 3'
   gem 'bundler', '>= 2.2', '< 3'
   gem 'rspec', '~> 3.11'
+  gem 'rspec_junit_formatter', '~> 0.5.1'
   gem 'rspec-rails', '~> 5.1'
   gem 'webpacker', '~> 5.4', '>= 5.4.3'
   gem 'rake', '>= 13', '< 14'

@@ -13,3 +13,4 @@ ae_skip_asset_pipeline-0.7.0.gem
 public
 node_modules
 tmp
+.bundle

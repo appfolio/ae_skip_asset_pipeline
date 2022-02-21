@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'active_support'
-require 'ae_skip_asset_pipeline/version'
 
 module AeSkipAssetPipeline
   mattr_accessor :enabled

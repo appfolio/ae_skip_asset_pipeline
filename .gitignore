@@ -9,3 +9,7 @@
 /tmp/
 /gemfiles/*.lock
 ae_skip_asset_pipeline-0.7.0.gem
+*.log
+public
+node_modules
+tmp

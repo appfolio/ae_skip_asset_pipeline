@@ -6,7 +6,7 @@ module AeSkipAssetPipeline
   mattr_accessor :enabled
 
   module AssetPipelineMethods
-    def javascript_pack_tag(*args)
+    def javascript_pack_tag(*args, **options)
       super unless AeSkipAssetPipeline.enabled
     end
 
@@ -18,7 +18,7 @@ module AeSkipAssetPipeline
       super unless AeSkipAssetPipeline.enabled
     end
 
-    def stylesheet_pack_tag(*args)
+    def stylesheet_pack_tag(*args, **options)
       super unless AeSkipAssetPipeline.enabled
     end
 

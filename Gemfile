@@ -17,4 +17,8 @@ source 'https://rubygems.org' do
   gem 'simplecov', '>= 0.21', '< 1', group: :test, require: false
 end
 
+source 'https://rubygems.pkg.github.com/appfolio' do
+  gem 'af_gems', group: :development
+end
+
 gemspec

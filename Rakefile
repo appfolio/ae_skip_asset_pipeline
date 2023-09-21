@@ -10,6 +10,8 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
+require 'af_gems'
+
 require 'rspec/core/rake_task'
 
 RSpec::Core::RakeTask.new(:test)

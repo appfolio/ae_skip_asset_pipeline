@@ -1,19 +1,24 @@
 # frozen_string_literal: true
 
 case RUBY_VERSION
-when '2.6.9'
-  rails_versions = ['~> 6.0.0', '~> 6.1.0']
-when '2.7.5', '3.1.0'
-  rails_versions = ['~> 6.0.0', '~> 6.1.0', '~> 7.0.0']
-else
-  raise "Unsupported Ruby version #{RUBY_VERSION}"
-end
-
-rails_versions.each do |rails_version|
-  appraise "ruby-#{RUBY_VERSION}-rails#{rails_version.gsub(/[^\d]/,'')}" do
+when '2.7.7', '3.1.3', '3.2.1'
+  appraise "ruby-#{RUBY_VERSION}_activesupport61" do
     source 'https://rubygems.org' do
-      gem 'actionpack', rails_version
-      gem 'railties', rails_version
+      gem 'activesupport', '~> 6.1.0'
     end
   end
+
+  appraise "ruby-#{RUBY_VERSION}_activesupport70" do
+    source 'https://rubygems.org' do
+      gem 'activesupport', '~> 7.0.0'
+    end
+  end
+
+  appraise "ruby-#{RUBY_VERSION}_activesupport71" do
+    source 'https://rubygems.org' do
+      gem 'activesupport', '~> 7.1.0'
+    end
+  end
+else
+  raise "Unsupported Ruby version #{RUBY_VERSION}"
 end

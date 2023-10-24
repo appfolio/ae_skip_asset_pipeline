@@ -1,16 +1,15 @@
 /.bundle/
-/.yardoc
-/Gemfile.lock
-/_yardoc/
 /coverage/
-/doc/
 /pkg/
-/spec/reports/
 /tmp/
-/gemfiles/*.lock
-ae_skip_asset_pipeline-0.7.0.gem
+/spec/dummy/node_modules/
+/spec/dummy/tmp/
+/spec/dummy/public/
+
+# Only generate Appraisal gemfiles on CI
+/gemfiles/
+
+# Ignore generated files
+Gemfile.lock
 *.log
-public
-node_modules
-tmp
-.bundle
+*.gem

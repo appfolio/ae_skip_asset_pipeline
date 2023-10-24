@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
-  spec.add_dependency('activesupport', ['>= 6', '< 7.1'])
+  spec.add_dependency('activesupport', ['>= 6.1', '< 7.2'])
 end

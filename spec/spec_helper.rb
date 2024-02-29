@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['RAILS_ENV'] = 'test'
+
 require 'bundler'
 
 begin
@@ -18,13 +20,9 @@ if ENV['WITH_COVERAGE'] == 'true'
   end
 end
 
-
-# Configure Rails Environment
-ENV['RAILS_ENV'] = 'test'
-
 require File.expand_path('../spec/dummy/config/environment.rb', __dir__)
 
 require 'ae_skip_asset_pipeline'
-
+require 'debug'
 require 'rspec'
 require 'rspec/rails'

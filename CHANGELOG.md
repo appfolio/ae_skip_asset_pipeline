@@ -2,12 +2,20 @@
 
 ## [Unreleased](https://github.com/appfolio/ae_skip_asset_pipeline/tree/HEAD)
 
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/94430b827a030a65d97d2eeddcd1b6373bfbf5a7...HEAD)
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v0.10.0...HEAD)
 
 **Merged pull requests:**
 
+- Appraise Ruby `3.3.0` [\#17](https://github.com/appfolio/ae_skip_asset_pipeline/pull/17) ([Maimer](https://github.com/Maimer))
+- Bank appraise rails 71 [\#15](https://github.com/appfolio/ae_skip_asset_pipeline/pull/15) ([Maimer](https://github.com/Maimer))
+- Upgrade for Ruby 3 [\#13](https://github.com/appfolio/ae_skip_asset_pipeline/pull/13) ([tristil](https://github.com/tristil))
+- Update circleci config [\#10](https://github.com/appfolio/ae_skip_asset_pipeline/pull/10) ([Maimer](https://github.com/Maimer))
 - Write tests and appraise to ruby 3 and Rails 7 [\#2](https://github.com/appfolio/ae_skip_asset_pipeline/pull/2) ([mqchau](https://github.com/mqchau))
 - mb - add javascript|stylesheet pack\_tag [\#1](https://github.com/appfolio/ae_skip_asset_pipeline/pull/1) ([mathewbaltes](https://github.com/mathewbaltes))
+
+## [v0.10.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v0.10.0) (2023-09-21)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/94430b827a030a65d97d2eeddcd1b6373bfbf5a7...v0.10.0)
 
 
 

@@ -2,7 +2,16 @@
 
 ## [Unreleased](https://github.com/appfolio/ae_skip_asset_pipeline/tree/HEAD)
 
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v0.10.0...HEAD)
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Appraise Rails 7.2 [\#21](https://github.com/appfolio/ae_skip_asset_pipeline/pull/21) ([Maimer](https://github.com/Maimer))
+- Add Backstage catalog metadata file\(s\) [\#18](https://github.com/appfolio/ae_skip_asset_pipeline/pull/18) ([modethirteen](https://github.com/modethirteen))
+
+## [v1.1.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.1.0) (2024-02-29)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v0.10.0...v1.1.0)
 
 **Merged pull requests:**
 

@@ -4,6 +4,7 @@ require 'spec_helper'
 
 describe ThingsController, type: :controller do
   include AeSkipAssetPipeline::HelperMethods
+
   describe 'render the page' do
     render_views
 

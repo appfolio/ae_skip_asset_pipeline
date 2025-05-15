@@ -20,6 +20,8 @@ if ENV['WITH_COVERAGE'] == 'true'
   end
 end
 
+require 'logger' # Due to issue with activesupport / concurrent-ruby
+
 require File.expand_path('../spec/dummy/config/environment.rb', __dir__)
 
 require 'ae_skip_asset_pipeline'

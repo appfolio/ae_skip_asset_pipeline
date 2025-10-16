@@ -1,8 +1,9 @@
 version: 2.1
 
 orbs:
+  aws-cli: circleci/aws-cli@5.4.1
   gem-tool: appfolio/gem-tool@volatile
-  node: circleci/node@5.1.0
+  node: circleci/node@7.2.0
 
 workflows:
   rc:
@@ -18,13 +19,39 @@ workflows:
                 - '3.3.6'
                 - '3.2.5'
           after-checkout-steps:
-            - node/install:
-                node-version: '16.13.1'
-                install-yarn: true
+            - aws-cli/setup
             - run:
-                name: Run npm ci
-                command: cd spec/dummy && npm ci
+                name: Block default npm/yarn repositories
+                command: |
+                  curl -fsSL http://npm-yarn-blocklist.security.appf.io | while read -r hostname; do
+                    echo "127.0.0.1 $hostname" | sudo tee -a /etc/hosts
+                  done
+                  cat /etc/hosts
+            - run:
+                name: Generate CodeArtifact token
+                command: |
+                  export AWS_ACCESS_KEY_ID=$SHARED_CODEARTIFACT_AWS_KEY_ID
+                  export AWS_SECRET_ACCESS_KEY=$SHARED_CODEARTIFACT_AWS_SECRET_KEY
+                  export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain appfolio-ecr --domain-owner 195334327833 --region us-west-2 --query authorizationToken --output text`
+                  echo "export CODEARTIFACT_AUTH_TOKEN=$CODEARTIFACT_AUTH_TOKEN" >> $BASH_ENV
+            - run:
+                name: Add dummy app bin path
+                command: |
+                  echo 'export PATH="$PWD/spec/dummy/bin:$PATH"' >> $BASH_ENV
+            - node/install:
+                node-version: '25.0.0'
+            - run:
+                name: Run yarn install
+                command: |
+                  cd spec/dummy
+                  yarn install
           after-appraisal-install-steps:
             - run:
+                name: Use OpenSSL legacy provider
+                command: |
+                  echo 'export NODE_OPTIONS="--openssl-legacy-provider"' >> $BASH_ENV
+            - run:
                 name: Run webpacker
-                command: cd spec/dummy && bin/webpack
+                command: |
+                  cd spec/dummy
+                  bin/webpack

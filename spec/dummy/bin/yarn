@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eu
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
+
+exec node "$SCRIPT_DIR/../../../.yarn/releases/yarn-4.10.2.cjs" "$@"

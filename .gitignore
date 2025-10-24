@@ -5,6 +5,7 @@
 /spec/dummy/node_modules/
 /spec/dummy/tmp/
 /spec/dummy/public/
+/spec/dummy/.yarn/
 
 # Only generate Appraisal gemfiles on CI
 /gemfiles/
@@ -13,3 +14,10 @@
 Gemfile.lock
 *.log
 *.gem
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

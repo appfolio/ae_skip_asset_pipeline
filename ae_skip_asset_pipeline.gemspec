@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new('< 3.5')
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
-  spec.add_dependency('activesupport', ['>= 7', '< 8.1'])
+  spec.add_dependency('activesupport', ['>= 7.2', '< 8.2'])
 end

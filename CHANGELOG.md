@@ -2,17 +2,27 @@
 
 ## [Unreleased](https://github.com/appfolio/ae_skip_asset_pipeline/tree/HEAD)
 
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.3.0...HEAD)
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.4.0...HEAD)
+
+**Merged pull requests:**
+
+- \[BANK-1584\] Appraise `rails` 8.1 [\#35](https://github.com/appfolio/ae_skip_asset_pipeline/pull/35) ([Maimer](https://github.com/Maimer))
+- \[BANK-1584\] Update to yarn and configure it to use the new package repository [\#34](https://github.com/appfolio/ae_skip_asset_pipeline/pull/34) ([Maimer](https://github.com/Maimer))
+- \[KNOW-154\]: Use CODEOWNERS to determine Developer Portal catalog ownership [\#29](https://github.com/appfolio/ae_skip_asset_pipeline/pull/29) ([modethirteen](https://github.com/modethirteen))
+
+## [v1.4.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.4.0) (2025-11-14)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.3.0...v1.4.0)
+
+## [v1.3.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.3.0) (2025-05-15)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.1.0...v1.3.0)
 
 **Merged pull requests:**
 
 - \[BANK-1370\] Appraise Ruby 3.4 and Activesupport 8 [\#25](https://github.com/appfolio/ae_skip_asset_pipeline/pull/25) ([Maimer](https://github.com/Maimer))
 - Appraise Rails 7.2 [\#21](https://github.com/appfolio/ae_skip_asset_pipeline/pull/21) ([Maimer](https://github.com/Maimer))
 - Add Backstage catalog metadata file\(s\) [\#18](https://github.com/appfolio/ae_skip_asset_pipeline/pull/18) ([modethirteen](https://github.com/modethirteen))
-
-## [v1.3.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.3.0) (2025-05-15)
-
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.1.0...v1.3.0)
 
 ## [v1.1.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.1.0) (2024-02-29)
 

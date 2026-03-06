@@ -2,17 +2,25 @@
 
 ## [Unreleased](https://github.com/appfolio/ae_skip_asset_pipeline/tree/HEAD)
 
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.4.0...HEAD)
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.5.0...HEAD)
+
+**Merged pull requests:**
+
+- \[BANK-1738\] Update supported Ruby versions to 3.3.10, 3.4.8, 4.0.1 [\#36](https://github.com/appfolio/ae_skip_asset_pipeline/pull/36) ([Maimer](https://github.com/Maimer))
+
+## [v1.5.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.5.0) (2026-03-06)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.4.0...v1.5.0)
+
+## [v1.4.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.4.0) (2025-11-14)
+
+[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.3.0...v1.4.0)
 
 **Merged pull requests:**
 
 - \[BANK-1584\] Appraise `rails` 8.1 [\#35](https://github.com/appfolio/ae_skip_asset_pipeline/pull/35) ([Maimer](https://github.com/Maimer))
 - \[BANK-1584\] Update to yarn and configure it to use the new package repository [\#34](https://github.com/appfolio/ae_skip_asset_pipeline/pull/34) ([Maimer](https://github.com/Maimer))
 - \[KNOW-154\]: Use CODEOWNERS to determine Developer Portal catalog ownership [\#29](https://github.com/appfolio/ae_skip_asset_pipeline/pull/29) ([modethirteen](https://github.com/modethirteen))
-
-## [v1.4.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.4.0) (2025-11-14)
-
-[Full Changelog](https://github.com/appfolio/ae_skip_asset_pipeline/compare/v1.3.0...v1.4.0)
 
 ## [v1.3.0](https://github.com/appfolio/ae_skip_asset_pipeline/tree/v1.3.0) (2025-05-15)
 

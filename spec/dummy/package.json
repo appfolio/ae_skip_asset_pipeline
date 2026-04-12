@@ -32,7 +32,6 @@
     "decode-uri-component": "0.2.1",
     "elliptic": "6.6.1",
     "micromatch": "^4.0.8",
-    "postcss": "^8.4.31",
     "flatted": "3.4.2",
     "glob": "10.5.0",
     "immutable": "4.3.8",

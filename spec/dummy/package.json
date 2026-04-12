@@ -7,7 +7,9 @@
   "packageManager": "yarn@4.10.2",
   "dependencies": {
     "@rails/webpacker": "^5.4.3",
-    "postcss-cssnext": "^3.1.1",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.49",
+    "postcss-preset-env": "^9.0.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^4.9.2"
   },
@@ -22,6 +24,7 @@
     "@babel/runtime": "7.26.10",
     "@babel/traverse": "7.29.0",
     "ansi-regex": "4.1.1",
+    "autoprefixer": ">=10.4.0",
     "bn.js": "4.12.3",
     "brace-expansion": "1.1.13",
     "braces": "3.0.3",
@@ -46,6 +49,9 @@
     "nth-check": "2.0.1",
     "pbkdf2": "3.1.5",
     "picomatch": "2.3.2",
+    "postcss": ">=8.4.31",
+    "postcss-flexbugs-fixes": ">=5.0.1",
+    "postcss-safe-parser": ">=5.0.1",
     "semver": "7.7.4",
     "serialize-javascript": "7.0.5",
     "sha.js": "2.4.12",

@@ -1,1 +1,6 @@
 * @appfolio/platform-test-automation
+
+# Automatic Dependabot approvals
+Gemfile @patchpal @appfolio/platform-ci-dev-tooling
+spec/dummy/package.json @patchpal @appfolio/platform-ci-dev-tooling
+spec/dummy/yarn.lock @patchpal @appfolio/platform-ci-dev-tooling

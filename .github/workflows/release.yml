@@ -5,9 +5,14 @@ on:
     branches:
       - main
       - master
+    paths:
+      - 'lib/**'
+      - 'ae_skip_asset_pipeline.gemspec'
+      - 'LICENSE.txt'
 
 permissions:
   contents: write
+  id-token: write
   pull-requests: write
 
 jobs:

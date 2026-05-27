@@ -2326,7 +2326,7 @@ __metadata:
     autoprefixer: "npm:^10.4.0"
     babel-loader: "npm:^8.3.0"
     css-loader: "npm:^5.2.7"
-    postcss: "npm:^8.4.49"
+    postcss: "npm:^8.5.10"
     postcss-loader: "npm:3.0.0"
     postcss-preset-env: "npm:^9.0.0"
     style-loader: "npm:^2.0.0"
@@ -5082,10 +5082,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip-address@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "ip-address@npm:10.0.1"
-  checksum: 10c0/1634d79dae18394004775cb6d699dc46b7c23df6d2083164025a2b15240c1164fccde53d0e08bd5ee4fc53913d033ab6b5e395a809ad4b956a940c446e948843
+"ip-address@npm:>=10.1.1":
+  version: 10.2.0
+  resolution: "ip-address@npm:10.2.0::__archiveUrl=https%3A%2F%2Fappfolio.jfrog.io%2Fartifactory%2Fapi%2Fnpm%2Fappfolio-kermit-npm%2Fip-address%2F-%2Fip-address-10.2.0.tgz"
+  checksum: 10c0/5a00aada6e922c9c69dfc800ed5d0fa3348675ebdeed0e1575f503f27ca385b5f534363c9af7ad1daf64c1f1409388cdd3cc2e9b9b0fe1c924a431378d55075a
   languageName: node
   linkType: hard
 
@@ -5973,12 +5973,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.11":
-  version: 3.3.11
-  resolution: "nanoid@npm:3.3.11"
+"nanoid@npm:^3.3.12":
+  version: 3.3.12
+  resolution: "nanoid@npm:3.3.12::__archiveUrl=https%3A%2F%2Fappfolio.jfrog.io%2Fartifactory%2Fapi%2Fnpm%2Fappfolio-kermit-npm%2Fnanoid%2F-%2Fnanoid-3.3.12.tgz"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 10c0/40e7f70b3d15f725ca072dfc4f74e81fcf1fbb02e491cf58ac0c79093adc9b0a73b152bcde57df4b79cd097e13023d7504acb38404a4da7bc1cd8e887b82fe0b
+  checksum: 10c0/ba142b7b39e11e80c16dd74b0365d407880c87c1cf7e1480956981ae940ee36060fa5b6f092cd1e315184dd19244c657bd017d03327bd3c62247d691c5e8edfb
   languageName: node
   linkType: hard
 
@@ -7736,14 +7736,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:>=8.4.31":
-  version: 8.5.9
-  resolution: "postcss@npm:8.5.9"
+"postcss@npm:>=8.5.10":
+  version: 8.5.15
+  resolution: "postcss@npm:8.5.15::__archiveUrl=https%3A%2F%2Fappfolio.jfrog.io%2Fartifactory%2Fapi%2Fnpm%2Fappfolio-kermit-npm%2Fpostcss%2F-%2Fpostcss-8.5.15.tgz"
   dependencies:
-    nanoid: "npm:^3.3.11"
+    nanoid: "npm:^3.3.12"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/7cb2b32202ea1ead03f15cfbb2756a64a0f98942378e99b3dfce33678fe5eaf93e31d675a46e3a0dfb417d7b49b82d8999d0dd42a33c3b128e71ade0f978719a
+  checksum: 10c0/7f2e63ae22fbe43aace1bf652bd99da4e90737c64194d49e51ddc9cd0f9e51ff2861a7d734379b494deffa03a880a5c65eec70bc29ee9ebaa7136dde3eee8f31
   languageName: node
   linkType: hard
 

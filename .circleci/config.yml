@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   gem-tool: appfolio/gem-tool@volatile
   node: circleci/node@7.2.0
-  public-packages: appfolio/public-packages@1
+  public-packages: https://raw.githubusercontent.com/appfolio/public-packages/v1/orbs/public-packages.yml
 
 workflows:
   rc:

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.author        = 'AppFolio'
   spec.email         = 'opensource@appfolio.com'
-  spec.description   = 'GSkip asset pipeline in tests.'
-  spec.summary       = spec.description
+  spec.description   = 'Provides functionality to skip the asset pipeline while running tests. It is most useful for controller and functional tests, where compiling assets adds unnecessary overhead.'
+  spec.summary       = 'Skips the asset pipeline during tests.'
   spec.homepage      = 'https://github.com/appfolio/ae_skip_asset_pipeline'
   spec.license       = 'MIT'
   spec.files         = Dir['**/*'].select { |f| f[%r{^(lib/|LICENSE.txt|ae_skip_asset_pipeline\.gemspec)}] }

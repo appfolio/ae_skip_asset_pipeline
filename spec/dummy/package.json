@@ -56,6 +56,7 @@
     "semver": "7.7.4",
     "serialize-javascript": "7.0.5",
     "sha.js": "2.4.12",
+    "postcss-svgo/svgo": "2.8.3",
     "tar": "7.5.13",
     "terser": "5.14.2",
     "yaml": "1.10.3"

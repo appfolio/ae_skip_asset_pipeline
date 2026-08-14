@@ -5771,7 +5771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:3.3.18":
+"nanoid@npm:^3.3.16":
   version: 3.3.18
   resolution: "nanoid@npm:3.3.18"
   bin:
